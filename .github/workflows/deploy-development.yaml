@@ -15,14 +15,14 @@ jobs:
 
       - name: List files for debugging
         run: |
-          echo "Listing files in the src directory:"
-          ls -R src
+          echo "Listing files in the root directory:"
+          ls -R
 
       - name: Install Dependencies
         run: npm install -g parcel
 
       - name: Build Project
-        run: parcel build src/index.html # Ensure index.html exists in the src folder or update the path
+        run: parcel build index.html  # Updated to use index.html from the root folder
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
