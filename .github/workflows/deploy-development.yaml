@@ -22,7 +22,7 @@ jobs:
         run: npm install -g parcel
 
       - name: Build Project
-        run: parcel build src/index.html
+        run: parcel build src/index.html # Ensure index.html exists in the src folder or update the path
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
