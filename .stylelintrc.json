@@ -1,15 +1,10 @@
 {
-    "rules": {
-      "declaration-block-no-duplicate-properties": true,
-      "no-duplicate-selectors": true,
-  <<<<<<< HEAD
-      "property-case": "lower",
-      "value-keyword-case": "lower",
-      "selector-type-case": "lower",
-  =======
-  >>>>>>> ceb5703 (Fix Stylelint configuration)
-      "block-no-empty": true
-    }
+  "rules": {
+    "declaration-block-no-duplicate-properties": true,
+    "no-duplicate-selectors": true,
+    "property-case": "lower",
+    "value-keyword-case": "lower",
+    "selector-type-case": "lower",
+    "block-no-empty": true
   }
-  
-  
+}
